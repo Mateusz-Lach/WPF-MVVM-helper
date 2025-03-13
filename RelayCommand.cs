@@ -26,3 +26,6 @@ internal class RelayCommand : ICommand
         execute(parameter);
     }
 }
+
+
+//using example in ViewModel: public RelayCommand ShowCommand => new RelayCommand(execute => ShowMessage(), canExecute => { return true; });
